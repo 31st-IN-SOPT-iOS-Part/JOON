@@ -66,20 +66,28 @@
 		37603E7B28E9AE2B001C8727 /* 31th IN_SOPT_First_Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				37603E9C28F06C64001C8727 /* FirstAssignment */,
+				37603E9028E9B068001C8727 /* SecondViewController.swift */,
+				37603E8028E9AE2B001C8727 /* FirstViewController.swift */,
 				37603E7C28E9AE2B001C8727 /* AppDelegate.swift */,
 				37603E7E28E9AE2B001C8727 /* SceneDelegate.swift */,
-				37603E9828EE6833001C8727 /* FrameAssignmentViewController.swift */,
-				37603E8028E9AE2B001C8727 /* FirstViewController.swift */,
-				37603E9028E9B068001C8727 /* SecondViewController.swift */,
-				37603E9628EA2C7B001C8727 /* WelcomeViewController.swift */,
-				37603E9428E9EC83001C8727 /* SignInViewController.swift */,
-				37603E9228E9EC5E001C8727 /* SignUpViewController.swift */,
 				37603E8228E9AE2B001C8727 /* Main.storyboard */,
 				37603E8528E9AE2C001C8727 /* Assets.xcassets */,
 				37603E8728E9AE2C001C8727 /* LaunchScreen.storyboard */,
 				37603E8A28E9AE2C001C8727 /* Info.plist */,
 			);
 			path = "31th IN_SOPT_First_Seminar";
+			sourceTree = "<group>";
+		};
+		37603E9C28F06C64001C8727 /* FirstAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				37603E9828EE6833001C8727 /* FrameAssignmentViewController.swift */,
+				37603E9628EA2C7B001C8727 /* WelcomeViewController.swift */,
+				37603E9228E9EC5E001C8727 /* SignUpViewController.swift */,
+				37603E9428E9EC83001C8727 /* SignInViewController.swift */,
+			);
+			path = FirstAssignment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

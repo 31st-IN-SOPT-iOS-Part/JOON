@@ -92,7 +92,7 @@ class SignUpViewController: UIViewController {
         if let email = emailTextField.text {
             welcomeVC.dataBind(userName: email)
         }
-            self.present(welcomeVC, animated: true, completion: nil)
+        self.present(welcomeVC, animated: true, completion: {self.view.isHidden = true})
         }
     
     @objc

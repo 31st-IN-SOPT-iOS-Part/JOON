@@ -43,21 +43,26 @@ class WelcomeViewController: UIViewController {
         }
     }
     
-//    func dataBind() {
-//        guard let userName = self.userName else {return}
-//        welcomeLabel.text= "\(userName)님 환영합니다!"
-//    }
-//    
+    //    func dataBind() {
+    //        guard let userName = self.userName else {return}
+    //        welcomeLabel.text= "\(userName)님 환영합니다!"
+    //    }
+    //
     func dataBind(userName: String) {
         welcomeLabel.text = "\(userName)님 환영합니다!"
     }
     
-        @objc
-        private func touchupBackButton() {
-    
-            guard let presentingVC = self.presentingViewController as? UINavigationController else { return }
-                    dismiss(animated: true) {
-                            presentingVC.popToRootViewController(animated: false)
-                    }
+    @objc
+    private func touchupBackButton() {
+        
+        guard let presentingVC = self.presentingViewController as? UINavigationController else { return }
+        dismiss(animated: true) {
+            presentingVC.popToRootViewController(animated: false)
         }
+        
+        //    @objc
+        //    private func touchupBackButton() {
+        //        self.dismiss(animated: true, completion: nil)
+        //        }
+    }
 }
