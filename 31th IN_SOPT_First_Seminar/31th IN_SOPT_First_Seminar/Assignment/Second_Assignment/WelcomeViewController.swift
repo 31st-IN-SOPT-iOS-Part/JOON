@@ -74,7 +74,7 @@ extension WelcomeViewController {
     @objc private func touchupNextButton() {
         let homeVC = HomeKakaoViewController()
         
-//        self.navigationController?.pushViewController(homeVC, animated: true)
+        self.navigationController?.pushViewController(homeVC, animated: true)
     }
     
 //    @objc
