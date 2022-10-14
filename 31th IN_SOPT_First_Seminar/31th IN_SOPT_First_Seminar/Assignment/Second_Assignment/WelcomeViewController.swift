@@ -7,7 +7,10 @@
 
 import UIKit
 
-//MARK: -
+import SnapKit
+import SwiftyColor
+
+//MARK: - WelcomeViewController
 
 class WelcomeViewController: UIViewController {
     
@@ -24,7 +27,7 @@ class WelcomeViewController: UIViewController {
         button.setTitle("확인", for: .normal)
         button.backgroundColor = .systemYellow
         button.layer.cornerRadius = 5
-        button.addTarget(self, action: #selector(touchupBackButton), for: .touchUpInside)
+        button.addTarget(self, action: #selector(touchupNextButton), for: .touchUpInside)
         return button
     }()
     
@@ -36,33 +39,53 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        
+        layout()
+    }
+}
+
+//MARK: - Extensions
+extension WelcomeViewController {
+    
+    private func layout() {
         let components:[Any] = [welcomeLabel,confirmButton]
         components.forEach {
             view.addSubview($0 as! UIView)
         }
+        
+        welcomeLabel.snp.makeConstraints {
+            $0.top.equalTo(self.view.safeAreaLayoutGuide).offset(197)
+            $0.centerX.equalToSuperview()
+        }
+        
+        confirmButton.snp.makeConstraints {
+            $0.top.equalTo(welcomeLabel.snp.bottom).offset(117)
+            $0.centerX.equalToSuperview()
+            $0.leading.equalToSuperview().offset(21)
+            $0.height.equalTo(44)
+        }
     }
+
+    //MARK: - Action Helpers
     
-    //    func dataBind() {
-    //        guard let userName = self.userName else {return}
-    //        welcomeLabel.text= "\(userName)님 환영합니다!"
-    //    }
-    //
     func dataBind(userName: String) {
         welcomeLabel.text = "\(userName)님 환영합니다!"
     }
     
-    @objc
-    private func touchupBackButton() {
+    @objc private func touchupNextButton() {
+        let homeVC = HomeKakaoViewController()
         
-        guard let presentingVC = self.presentingViewController as? UINavigationController else { return }
-        dismiss(animated: true) {
-            presentingVC.popToRootViewController(animated: false)
-        }
-        
-        //    @objc
-        //    private func touchupBackButton() {
-        //        self.dismiss(animated: true, completion: nil)
-        //        }
+//        self.navigationController?.pushViewController(homeVC, animated: true)
     }
+    
+//    @objc
+//    private func touchupBackButton() {
+//
+//        guard let presentingVC = self.presentingViewController as? UINavigationController else { return }
+//        dismiss(animated: true) {
+//            presentingVC.popToRootViewController(animated: false)
+//        }
+//    }
 }
+
+
+

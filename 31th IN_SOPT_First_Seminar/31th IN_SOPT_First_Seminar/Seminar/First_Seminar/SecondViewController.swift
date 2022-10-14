@@ -27,6 +27,8 @@ class SecondViewController: UIViewController {
     
     var result: String?
     
+    //MARK: - Life Cycles
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -37,10 +39,12 @@ class SecondViewController: UIViewController {
         }
     }
     
-    func dataBind() {
-        guard let result = self.result else {return}
-        resultLabel.text = "당신의 선택은 \(result)였군요!"
-    }
+    //MARK: - Action Helpers
+    
+//    func dataBind() {
+//        guard let result = self.result else {return}
+//        resultLabel.text = "당신의 선택은 \(result)였군요!"
+//    }
     
     func dataBind(result:String) {
         resultLabel.text = "당신의 선택은 \(result)였군요!"

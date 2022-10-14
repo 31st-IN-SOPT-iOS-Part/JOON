@@ -7,7 +7,13 @@
 
 import UIKit
 
+import SnapKit
+
+//MARK: -
+
 class FirstViewController: UIViewController {
+    
+    //MARK: - UIComponents
     
     private let questionLabel: UILabel = {
         let label = UILabel(frame: CGRect(x: 50, y: 200, width: 250, height: 30))
@@ -33,6 +39,8 @@ class FirstViewController: UIViewController {
         return button
     }()
     
+    //MARK: - Life Cycles
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -43,6 +51,12 @@ class FirstViewController: UIViewController {
         }
     }
     
+//MARK: - Extensions
+    
+    //MARK: - Layout Helpers
+    
+    //MARK: - Action Helpers
+    
     private func presentToSecondVC() {
         let secondVC = SecondViewController()
         secondVC.modalPresentationStyle = .formSheet
@@ -52,7 +66,6 @@ class FirstViewController: UIViewController {
         }
         self.present(secondVC,animated: true, completion: nil)
     }
-    
     
     private func pushToSecondVC() {
         let secondVC = SecondViewController()

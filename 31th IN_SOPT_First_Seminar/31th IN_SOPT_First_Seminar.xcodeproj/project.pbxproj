@@ -14,10 +14,19 @@
 		37603E8628E9AE2C001C8727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37603E8528E9AE2C001C8727 /* Assets.xcassets */; };
 		37603E8928E9AE2C001C8727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37603E8728E9AE2C001C8727 /* LaunchScreen.storyboard */; };
 		37603E9128E9B068001C8727 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603E9028E9B068001C8727 /* SecondViewController.swift */; };
-		37603E9328E9EC5E001C8727 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603E9228E9EC5E001C8727 /* SignUpViewController.swift */; };
-		37603E9528E9EC83001C8727 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603E9428E9EC83001C8727 /* SignInViewController.swift */; };
+		37603E9328E9EC5E001C8727 /* SecondKakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603E9228E9EC5E001C8727 /* SecondKakaoViewController.swift */; };
+		37603E9528E9EC83001C8727 /* FirstKakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603E9428E9EC83001C8727 /* FirstKakaoViewController.swift */; };
 		37603E9728EA2C7B001C8727 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603E9628EA2C7B001C8727 /* WelcomeViewController.swift */; };
 		37603E9928EE6833001C8727 /* FrameAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37603E9828EE6833001C8727 /* FrameAssignmentViewController.swift */; };
+		37824DD628F1406F001FF171 /* AutolayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37824DD528F1406F001FF171 /* AutolayoutViewController.swift */; };
+		37824DF928F148AB001FF171 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37824DF828F148AB001FF171 /* SnapKit */; };
+		37824DFE28F152F5001FF171 /* SwiftyColor in Frameworks */ = {isa = PBXBuildFile; productRef = 37824DFD28F152F5001FF171 /* SwiftyColor */; };
+		37824E0028F15ECC001FF171 /* AutolayoutPractice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37824DFF28F15ECC001FF171 /* AutolayoutPractice2.swift */; };
+		37824E0228F168FD001FF171 /* MelonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37824E0128F168FD001FF171 /* MelonViewController.swift */; };
+		37824E0428F3310B001FF171 /* ScrollViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37824E0328F3310B001FF171 /* ScrollViewPractice.swift */; };
+		37824E0628F3BBAC001FF171 /* ImagePracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37824E0528F3BBAC001FF171 /* ImagePracticeViewController.swift */; };
+		37824E0C28F7C4D6001FF171 /* HomeKakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37824E0B28F7C4D6001FF171 /* HomeKakaoViewController.swift */; };
+		37824E0E28F7C522001FF171 /* ProfileKakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37824E0D28F7C522001FF171 /* ProfileKakaoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +39,17 @@
 		37603E8828E9AE2C001C8727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37603E8A28E9AE2C001C8727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37603E9028E9B068001C8727 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		37603E9228E9EC5E001C8727 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		37603E9428E9EC83001C8727 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		37603E9228E9EC5E001C8727 /* SecondKakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKakaoViewController.swift; sourceTree = "<group>"; };
+		37603E9428E9EC83001C8727 /* FirstKakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstKakaoViewController.swift; sourceTree = "<group>"; };
 		37603E9628EA2C7B001C8727 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		37603E9828EE6833001C8727 /* FrameAssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAssignmentViewController.swift; sourceTree = "<group>"; };
+		37824DD528F1406F001FF171 /* AutolayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutViewController.swift; sourceTree = "<group>"; };
+		37824DFF28F15ECC001FF171 /* AutolayoutPractice2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutPractice2.swift; sourceTree = "<group>"; };
+		37824E0128F168FD001FF171 /* MelonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelonViewController.swift; sourceTree = "<group>"; };
+		37824E0328F3310B001FF171 /* ScrollViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPractice.swift; sourceTree = "<group>"; };
+		37824E0528F3BBAC001FF171 /* ImagePracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePracticeViewController.swift; sourceTree = "<group>"; };
+		37824E0B28F7C4D6001FF171 /* HomeKakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKakaoViewController.swift; sourceTree = "<group>"; };
+		37824E0D28F7C522001FF171 /* ProfileKakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileKakaoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37824DFE28F152F5001FF171 /* SwiftyColor in Frameworks */,
+				37824DF928F148AB001FF171 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,9 +84,8 @@
 		37603E7B28E9AE2B001C8727 /* 31th IN_SOPT_First_Seminar */ = {
 			isa = PBXGroup;
 			children = (
-				37603E9C28F06C64001C8727 /* FirstAssignment */,
-				37603E9028E9B068001C8727 /* SecondViewController.swift */,
-				37603E8028E9AE2B001C8727 /* FirstViewController.swift */,
+				37824E0A28F57658001FF171 /* Assignment */,
+				37824E0928F57650001FF171 /* Seminar */,
 				37603E7C28E9AE2B001C8727 /* AppDelegate.swift */,
 				37603E7E28E9AE2B001C8727 /* SceneDelegate.swift */,
 				37603E8228E9AE2B001C8727 /* Main.storyboard */,
@@ -79,15 +96,71 @@
 			path = "31th IN_SOPT_First_Seminar";
 			sourceTree = "<group>";
 		};
-		37603E9C28F06C64001C8727 /* FirstAssignment */ = {
+		37603E9C28F06C64001C8727 /* First_Assignment */ = {
 			isa = PBXGroup;
 			children = (
 				37603E9828EE6833001C8727 /* FrameAssignmentViewController.swift */,
-				37603E9628EA2C7B001C8727 /* WelcomeViewController.swift */,
-				37603E9228E9EC5E001C8727 /* SignUpViewController.swift */,
-				37603E9428E9EC83001C8727 /* SignInViewController.swift */,
 			);
-			path = FirstAssignment;
+			path = First_Assignment;
+			sourceTree = "<group>";
+		};
+		37824DFA28F14BFE001FF171 /* Second_Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				37824E0128F168FD001FF171 /* MelonViewController.swift */,
+				37824E0528F3BBAC001FF171 /* ImagePracticeViewController.swift */,
+				37824DD528F1406F001FF171 /* AutolayoutViewController.swift */,
+				37824DFF28F15ECC001FF171 /* AutolayoutPractice2.swift */,
+				37824E0328F3310B001FF171 /* ScrollViewPractice.swift */,
+				37824DFB28F14C0D001FF171 /* Assignment */,
+			);
+			path = Second_Seminar;
+			sourceTree = "<group>";
+		};
+		37824DFB28F14C0D001FF171 /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assignment;
+			sourceTree = "<group>";
+		};
+		37824E0728F5752E001FF171 /* First_Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				37603E9028E9B068001C8727 /* SecondViewController.swift */,
+				37603E8028E9AE2B001C8727 /* FirstViewController.swift */,
+			);
+			path = First_Seminar;
+			sourceTree = "<group>";
+		};
+		37824E0828F5763A001FF171 /* Second_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				37603E9628EA2C7B001C8727 /* WelcomeViewController.swift */,
+				37603E9228E9EC5E001C8727 /* SecondKakaoViewController.swift */,
+				37603E9428E9EC83001C8727 /* FirstKakaoViewController.swift */,
+				37824E0B28F7C4D6001FF171 /* HomeKakaoViewController.swift */,
+				37824E0D28F7C522001FF171 /* ProfileKakaoViewController.swift */,
+			);
+			path = Second_Assignment;
+			sourceTree = "<group>";
+		};
+		37824E0928F57650001FF171 /* Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				37824DFA28F14BFE001FF171 /* Second_Seminar */,
+				37824E0728F5752E001FF171 /* First_Seminar */,
+			);
+			path = Seminar;
+			sourceTree = "<group>";
+		};
+		37824E0A28F57658001FF171 /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				37824E0828F5763A001FF171 /* Second_Assignment */,
+				37603E9C28F06C64001C8727 /* First_Assignment */,
+			);
+			path = Assignment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +179,10 @@
 			dependencies = (
 			);
 			name = "31th IN_SOPT_First_Seminar";
+			packageProductDependencies = (
+				37824DF828F148AB001FF171 /* SnapKit */,
+				37824DFD28F152F5001FF171 /* SwiftyColor */,
+			);
 			productName = "31th IN_SOPT_First_Seminar";
 			productReference = 37603E7928E9AE2B001C8727 /* 31th IN_SOPT_First_Seminar.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +211,10 @@
 				Base,
 			);
 			mainGroup = 37603E7028E9AE2B001C8727;
+			packageReferences = (
+				37824DF728F148AB001FF171 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				37824DFC28F152F5001FF171 /* XCRemoteSwiftPackageReference "SwiftyColor" */,
+			);
 			productRefGroup = 37603E7A28E9AE2B001C8727 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,14 +242,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37824E0E28F7C522001FF171 /* ProfileKakaoViewController.swift in Sources */,
+				37824DD628F1406F001FF171 /* AutolayoutViewController.swift in Sources */,
+				37824E0228F168FD001FF171 /* MelonViewController.swift in Sources */,
 				37603E8128E9AE2B001C8727 /* FirstViewController.swift in Sources */,
 				37603E9928EE6833001C8727 /* FrameAssignmentViewController.swift in Sources */,
 				37603E7D28E9AE2B001C8727 /* AppDelegate.swift in Sources */,
-				37603E9528E9EC83001C8727 /* SignInViewController.swift in Sources */,
+				37603E9528E9EC83001C8727 /* FirstKakaoViewController.swift in Sources */,
 				37603E7F28E9AE2B001C8727 /* SceneDelegate.swift in Sources */,
 				37603E9128E9B068001C8727 /* SecondViewController.swift in Sources */,
-				37603E9328E9EC5E001C8727 /* SignUpViewController.swift in Sources */,
+				37824E0428F3310B001FF171 /* ScrollViewPractice.swift in Sources */,
+				37603E9328E9EC5E001C8727 /* SecondKakaoViewController.swift in Sources */,
+				37824E0028F15ECC001FF171 /* AutolayoutPractice2.swift in Sources */,
 				37603E9728EA2C7B001C8727 /* WelcomeViewController.swift in Sources */,
+				37824E0628F3BBAC001FF171 /* ImagePracticeViewController.swift in Sources */,
+				37824E0C28F7C4D6001FF171 /* HomeKakaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +474,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37824DF728F148AB001FF171 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		37824DFC28F152F5001FF171 /* XCRemoteSwiftPackageReference "SwiftyColor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/SwiftyColor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37824DF828F148AB001FF171 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37824DF728F148AB001FF171 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		37824DFD28F152F5001FF171 /* SwiftyColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37824DFC28F152F5001FF171 /* XCRemoteSwiftPackageReference "SwiftyColor" */;
+			productName = SwiftyColor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 37603E7128E9AE2B001C8727 /* Project object */;
 }
